@@ -1,7 +1,7 @@
 import time
 from timeit import timeit
 
-WALL_EXECUTION_TIMES = 10
+WALL_EXECUTION_TIMES = 5
 
 def print_readable_time(time_type, time_elapsed):
     seconds, milliseconds = divmod(time_elapsed * 1000, 1000)
@@ -10,7 +10,7 @@ def print_readable_time(time_type, time_elapsed):
     print(f'{time_type}: {int(hours):0d} hours, {int(minutes):02d} minutes, {int(seconds):02d} seconds {int(milliseconds):03d} milliseconds')
 
 def function_to_measure():
-    time.sleep(3)
+    time.sleep(2)
     # Write the code you want to time here
     return sum(range(10000000))
 
