@@ -11,6 +11,16 @@
 
 [SQL Query](https://github.com/laryssonalves/catalog-products/blob/d4a998700b251ddf7e456650fd672d1c61e84164/query.sql)
 
+## Run the project
+After clonning the project you gonna need to install the dependencies:
+```bash
+  pip3 install -r requirements.txt
+```
+And then run the project:
+```bash
+  python3 manage.py runserver
+```
+
 # Execution timer
 It shows the CPU and Wall clock execution time
 
