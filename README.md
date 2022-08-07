@@ -34,3 +34,8 @@ And then run the project:
 It shows the CPU and Wall clock execution time
 
 [Script](https://github.com/laryssonalves/catalog-products/blob/d4a998700b251ddf7e456650fd672d1c61e84164/execution_timer.py)
+
+## Run the script
+```bash
+  python3 execution_timer.py
+```
